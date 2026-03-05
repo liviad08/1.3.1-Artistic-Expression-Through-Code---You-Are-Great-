@@ -120,5 +120,6 @@ screen.onkey(run_animation, "space")
 run_animation()
 update_star_rain()
 
-print("⭐ You are great! Hit [SPACE] 5 times for a surprise.")
+print("⭐ You are great! Hit [SPACE] 4 times for a surprise.")
+
 turtle.done()
