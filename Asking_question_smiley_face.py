@@ -8,7 +8,6 @@ screen.title("The Growing Celebration")
 screen.setup(width=700, height=700)
 screen.tracer(0) 
 
-# --- NEW: User Input Section ---
 # This asks a question before the animation starts
 user_choice = screen.textinput("Theme Picker", "Choose a vibe: 'fire', 'ice', or 'party':")
 if user_choice:
@@ -144,4 +143,5 @@ run_animation()
 update_star_rain()
 
 print("⭐ You are great! Hit [SPACE] 4 times for a surprise.")
+
 turtle.done()
